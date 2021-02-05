@@ -41,35 +41,32 @@
     <div class="container">
       <div id="start-screen" class="card show">
         <!-- Title Decider Diner -->
-        <h1 class="title has-text-centered my-2" style="font-family: Magneto; font-size: 72px; color: #F01D05;"> Welcome
+        <h1 class="title has-text-centered my-2" style="font-family: Magneto; font-size: 56px; color: #F01D05;"> Welcome
           to Decider Diner</h1>
         <!-- Description -->
         <div class="has-text-centered mx-5 is-size-4">Not sure what you want to eat? Not a problem!</div>
         <div class="has-text-centered mx-5 mb-4 is-size-4">The Decider Diner is where you go when you can't decide what to eat. Click
           the "Eat In" button for recipe suggestions or the "Eat Out" button to find local
           restaurants.</div>
-        <!-- Diner Image -->
-        <div class="card-image">
-          <figure class="image is-2by1">
-            <img id="hero-image" src="assets/Cosmic-Diner-Retro.jpg" alt="Placeholder image">
-            <!-- Buttons Eat In and Eat Out -->
-            <div id="eat-home-div">
-              <button id="eat-home-btn" class="button is-rounded is-large is-danger"
-                style="background-color: #F01D05;">Eat In</button>
-            </div>
-            <div id="eat-out-div">
-              <button id="eat-out-btn" class="button is-rounded is-large is-danger is-pulled-right"
-                style="background-color: #F01D05;">Eat Out</button>
-            </div>
-            </img>
-          </figure>
+          <!-- Diner Image -->
+          <div class="card-image">
+            <figure class="image is-2by1">
+              <img id="hero-image" src="assets/Cosmic-Diner-Retro.jpg" alt="Placeholder image">
+            </figure>
+          </div>
+          <!-- Buttons Eat In and Eat Out -->
+          <div>
+            <button id="eat-home-btn" class="button is-large is-danger"
+              style="background-color: #F01D05; border-radius: 0px; width: 50%; font-size: 28px;">Eat In</button>
+            <button id="eat-out-btn" class="button is-large is-danger is-pulled-right"
+              style="background-color: #F01D05; border-radius: 0px; width: 50%; font-size: 28px;">Eat Out</button>
+          </div>
         </div>
-      </div>
-      <br>
-      <!-- Location or food input and button -->
-      <form id="search-term" class="hide">
-        <h2 id="search-term-title" class="is-size-3"></h2>
-        <input type="text" id="search-input" name="city" style="height: 36px;">
+        <br>
+        <!-- Location or food input and button -->
+        <form id="search-term" class="hide">
+          <h2 id="search-term-title" class="is-size-3"></h2>
+          <input type="text" id="search-input" name="city" style="height: 36px;">
         <button id="search-btn" class="button is-danger" style="background-color: #F01D05; height: 36px;">Go</button>
       </form>
       <!-- Questions page -->
@@ -92,10 +89,10 @@
     </div>
     <!-- Results Page -->
     <div id="results-page" class="container hide">
-      <h1 class="title has-text-centered mb-0" style="font-family: Magneto; font-size:48px; color: #F01D05;">Decider Diner</h1>
-      <h1 id="menu" class="title has-text-centered" style="font-family: Magneto; font-size:72px; color: #F01D05;"></h1>
+      <h1 class="title has-text-centered mb-0" style="font-family: Magneto; font-size: 40px; color: #F01D05;">Decider Diner</h1>
+      <h1 id="menu" class="title has-text-centered" style="font-family: Magneto; font-size: 40px; color: #F01D05;"></h1>
       <div id="no-result" class="has-text-centered my-3 is-size-4"></div>
-      <div id="result-suggestions" class="columns is-multiline is-mobile">
+      <div id="result-suggestions" class="columns is-multiline">
       </div>
     </div>
 </section>

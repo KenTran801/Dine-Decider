@@ -22,7 +22,7 @@ The Decider Diner is where you go when you can't decide what to eat. Click the "
 ## Application Preview
 ---
 
-The live deployment of this application can be found by [Clicking Here](https://spencercreer.github.io/Dine-Decider/).
+The live deployment of this application can be found by [Clicking Here](https://kentran801.github.io/Dine-Decider/).
 
 <br>
 
